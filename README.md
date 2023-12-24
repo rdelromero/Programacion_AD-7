@@ -36,7 +36,7 @@ CONSIDERACIONES:
   - literalSexo() : String. H -> Hombre, M -> mujer
   - obtenerEmail() : String. Primera letra del nombre + primer apellido, en minúsculas
   - nombreCompleto(): String. Nombre + “ “ + apellidos
-* Métodos de EmpleadoDao, además de los CRUD, y findAll():
+* La clase EmpleadoDao, además de los CRUD, y findAll(), impone los siguientes métodos:
   - empleadosByDepartamento(int idDepar): List<Empleado>
   - empleadosBySexo(char sexo): List<Empleado>
   - empleadosByApellido(String subcadena): List<Empleado>
